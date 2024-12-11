@@ -14,6 +14,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
+    background-color: black;
+    color:white;
     
 
 }
@@ -24,14 +26,24 @@
     width: 90vw;
     height: 90vh;
     justify-items: right;
+    background-color: #141922;
 
 }
 
 .main-btn{
     display: flex;
-    height: fit-content;
+    height: 15vw;
     width: 90vw;
     justify-content: end;
+    align-items: center;
+    background-color: #080B12;
+}
+
+.header-button{
+    height: 50%;
+    width: 40%;
+    border-radius: 50px;
+    padding: 5px;
 }
 
 
@@ -39,14 +51,24 @@
 
     width: 100vw;
     height: 10vh;
+    background-color: #282828;
 }
 
 /*spacebar-items*/
 
-svg{
-    width: 15px;
-    height: 15px;
+.svg-standard,
+.spotify-logo{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
 }
+
+.svg-small{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 10px;;
+}
+
 
 .first-icons{
     text-align: center;
@@ -55,3 +77,17 @@ svg{
 .second-icons{
     text-align: center;
 }
+
+
+.spotify-logo--text{
+    display: none;
+}
+
+
+
+
+
+
+
+
+

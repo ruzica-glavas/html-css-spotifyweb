@@ -1,15 +1,33 @@
 /*Mobile big*/
 @media screen and (min-width:480px){
+    .spacebar{
+        width: 20vw
+    }
+
+
+
+    .main-container{
+        width: 80vw;
+    }
+ 
     .first-icons{
         display: flex;
         flex-direction: column;
-        align-items: center;
 }
-.second-icons{
+    .second-icons{
         display: flex;
         flex-direction: column;
-        align-items: center;
 
+}
+
+
+.spotify-logo{
+    display: none;
+    
+}
+
+.spotify-logo--text{
+    display: flex;
 }
 
 
