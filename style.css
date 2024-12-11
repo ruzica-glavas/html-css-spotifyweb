@@ -1,0 +1,39 @@
+
+.principal-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+
+.spacebar{
+    flex-basis: 20%;
+    height: 90vh;
+
+}
+
+
+.main-container{
+    display: flex;
+    flex-basis: 80%;
+    height: 90vh;
+    justify-items: right;
+
+}
+
+.main-btn{
+    display: flex;
+    height: fit-content;
+    width:80vw;
+    justify-content: end;
+}
+
+
+.footer{
+
+    width: 100vw;
+    height: 10vh;
+
+
+}
