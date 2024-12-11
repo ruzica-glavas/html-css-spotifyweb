@@ -1,0 +1,17 @@
+/*Mobile big*/
+@media screen and (min-width:480px){
+    .first-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.second-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+}
+
+
+
+}
