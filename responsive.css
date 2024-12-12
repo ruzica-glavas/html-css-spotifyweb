@@ -4,8 +4,6 @@
         width: 20vw
     }
 
-
-
     .main-container{
         width: 80vw;
     }
@@ -21,17 +19,43 @@
 }
 
 
-.spotify-logo{
-    display: none;
+    .spotify-logo{
+        display: none;
     
 }
 
-.spotify-logo--text{
-    display: flex;
+    .spotify-logo--text{
+        display: flex;
 }
 
-.svg-small{
-    margin-left: 10px;
+    .svg-small{
+        margin-left: 10px;
 }
 
+    .description-icons{
+        display: inline;
+        font-size: 10px;
+        margin-bottom: 5px;
 }
+
+.playlist{
+    display: inline;
+}
+
+
+}
+
+
+/*Tablet*/
+
+@media screen and (min-width:768px){
+
+    .description-icons{
+        font-size: 15px;
+    }
+
+
+
+
+}
+
