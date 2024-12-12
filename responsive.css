@@ -30,6 +30,8 @@
     display: flex;
 }
 
-
+.svg-small{
+    margin-left: 10px;
+}
 
 }
