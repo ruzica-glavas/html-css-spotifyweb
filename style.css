@@ -56,9 +56,7 @@
     border-radius: 20px;
 }
 
-.testo{
-    height: 85%;
-}
+
 
 .footer{
 
@@ -111,10 +109,62 @@ hr{
 }
 
 
+/*Parte centrale della pagina*/
+
+.subtitles-main-container{
+    padding: 10px;
+    font-size: 10px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.subtitles-elements{
+    color: white;
+
+}
+
+h2{
+    color: white;
+}
+
+.container-cards{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+
+.container-element{
+    height: fit-content;
+}
 
 
 
+.img-music{
+    width: 100px;
+    height: 70px;
+}
 
+
+.img-radius{
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+.h2-titles{
+    width: 100%;
+    height: fit-content;
+}
 
 
 
