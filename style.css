@@ -63,6 +63,9 @@
     width: 100%;
     height: 10%;
     background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 /*spacebar-items*/
@@ -139,11 +142,15 @@ h2{
     flex-wrap: wrap;
     flex-direction: row;
     gap: 20px;
-    padding: 10px;
+    padding: 20px;
+    
 }
 
 .container-element{
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -179,6 +186,56 @@ h2{
 .music-subtitle{
     font-size: 7px;
     color:#686868;
+}
+
+/*Parte footer*/
+
+.img-footer{
+    display: flex;
+}
+
+.img-footer-music{
+    width: auto;
+    height: 70%;
+}
+
+.titles-footer-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.icons-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    border-color: white;
+}
+
+.play-music-footer{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.fa-play{
+    border-width: 5px;
+    border-color: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.footer-time{
+    font-size: 5px;
+    flex-direction: column-reverse;
+}
+
+.footer-impostation{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 
