@@ -225,6 +225,7 @@ h2{
     justify-content: center;
     gap: 3px;
     border-color: white;
+    margin-left: 10px;
 }
 
 .play-music-footer{
