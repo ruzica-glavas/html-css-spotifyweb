@@ -75,6 +75,7 @@
     width: 20px;
     height: 20px;
     margin: 5px;
+    border-left: 2px solid #ADFF2F;
 }
 
 .svg-small{
@@ -203,6 +204,7 @@ h2{
 
 .img-footer{
     display: flex;
+   
 }
 
 .img-footer-music{
@@ -232,15 +234,18 @@ h2{
 }
 
 
+
 .footer-time{
+    display: flex;
     font-size: 5px;
-    flex-direction: column-reverse;
+    
 }
 
 .footer-impostation{
     display: flex;
     align-items: center;
     gap: 10px;
+    width: 30%;
 }
 
 
