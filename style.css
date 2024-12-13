@@ -81,6 +81,7 @@
     width: 10px;
     height: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 
@@ -95,6 +96,15 @@
     gap: 10px;
 }
 
+.spacebar-icons-list li{
+    display: flex;
+    align-items: center;
+}
+
+.list-element-big-screens{
+    display: flex;
+    align-items: center;
+}
 
 .description-icons{
     display: none;
@@ -106,6 +116,7 @@
     display: none;
     margin-top: 10px;
 }
+
 
 hr{
     display: none;
@@ -220,12 +231,6 @@ h2{
   
 }
 
-.fa-play{
-    border-width: 5px;
-    border-color: white;
-    border-radius: 50%;
-    padding: 2px;
-}
 
 .footer-time{
     font-size: 5px;
@@ -236,6 +241,15 @@ h2{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+
+.footer-impostation-line{
+    width: 50px;
+    height: 3px;
+    background-color: #C1C1C1;
+    border-radius: 15%;
+
 }
 
 
