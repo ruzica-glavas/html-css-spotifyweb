@@ -30,7 +30,7 @@
     width: 90%;
     height: 90%;
     background-color: #141922;
-    overflow: scroll;
+    overflow: auto;
 
 }
 
@@ -204,6 +204,7 @@ h2{
 
 .img-footer{
     display: flex;
+    width: 30%;
    
 }
 
@@ -231,9 +232,23 @@ h2{
 .play-music-footer{
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
   
 }
 
+.time-player{
+    display: flex;
+    flex-direction: row;
+}
+
+.time-line{
+    width: 70px;
+    height: 3px;
+    background-color: #C1C1C1;
+    border-radius: 15%;
+    text-align: center;
+}
 
 
 .footer-time{
